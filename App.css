@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+
+  color: #444;
+}
+
+.app {
+  width: 300px; /* Specify the width of the div */
+  margin: 5rem auto; /* Set left and right margin to auto */
+  background-color: grey;
+  padding: 20px;
+}
+input {
+  margin: 1rem 0;
+  width: 100%;
+}
+.in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+input {
+  /* width: 60px; */
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  background-color: purple;
+}
+
+p {
+  font-size: 1.3rem;
+}
+button {
+  /* border: none;   */
+  padding: 0.2rem 0.4rem;
+  border: 3px solid grey;
+  cursor: pointer;
+}
